@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://v4-alpha.getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+
+    <title>Yuval's Zoo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./index_files/starter-template.css" rel="stylesheet">
+  <style type="text/css">
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{ display: none !important; }</style></head>
+
+  <body>
+
+
+<!--     <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+      <a class="navbar-brand" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">Project name</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+ -->
+    <div class="container">
+
+      <div class="starter-template">
+        <!-- <p class="lead" style="opacity:.7;">Version {{version}}</p> -->
+        <h1>Hyperplasia vs. Hypertrophy</h1>
+        <p class="lead">Yuval's Zoo Animals</p>
+        <!-- <p class="lead" style="opacity:.7;">Breakdown by Daniel Snider</p> -->
+      </div>
+
+
+      {{#each sections}}
+        <div class="row">
+          <div class="col-md-12">
+            <h3>{{title}}</h3>
+            <div>{{description}}</div>
+            {{#if table}}
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                {{#each table}}
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">{{row_name}}</th>
+                    <td style="vertical-align: middle;">r = {{correlation.r}}, p = {{correlation.p}}</td>
+                    {{#if partial_correlation}}
+                      <td> r = {{partial_correlation.r}}, ({{partial_correlation.title}}), p = {{partial_correlation.p}}</td>
+                    {{else}}
+                      <td>{{#each partial_correlations}}
+                      r = {{r}}, ({{title}}), p = {{p}}<br>
+                      {{/each}}</td>
+                    {{/if}}
+                  </tr>
+                {{/each}}
+                </tbody>
+              </table>
+            {{/if}}
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            {{#if images.title}}
+              <div class="card text-xs-center">
+              <h6 class="card-header">{{images.title}}</h6>
+                <div class="card-block" style="padding:0px;"></div>
+                <img class="card-img" src="img/{{images.filename}}" style="width:100%;">
+              </div>
+            {{else}}
+              {{#each images}}
+                <div class="card text-xs-center">
+                <h6 class="card-header">{{title}}</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/{{filename}}" style="width:100%;">
+                </div>
+              {{/each}}
+            {{/if}}
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        {{/each}}
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index_files/jquery.min.js.download" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./index_files/tether.min.js.download" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="./index_files/bootstrap.min.js.download"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./index_files/ie10-viewport-bug-workaround.js.download"></script>
+  
+
+</body></html>
+

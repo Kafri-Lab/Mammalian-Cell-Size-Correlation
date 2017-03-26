@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://v4-alpha.getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+
+    <title>Yuval's Zoo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./index_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./index_files/starter-template.css" rel="stylesheet">
+  <style type="text/css">
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{ display: none !important; }</style></head>
+
+  <body>
+
+
+<!--     <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+      <a class="navbar-brand" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">Project name</a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://v4-alpha.getbootstrap.com/examples/starter-template/#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+ -->
+    <div class="container">
+
+      <div class="starter-template">
+        <!-- <p class="lead" style="opacity:.7;">Version </p> -->
+        <h1>Hyperplasia vs. Hypertrophy</h1>
+        <p class="lead">Yuval's Zoo Animals</p>
+        <!-- <p class="lead" style="opacity:.7;">Breakdown by Daniel Snider</p> -->
+      </div>
+
+
+      
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Cell size vs life span vs animal size (acinar)</h3>
+            <div></div>
+            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Cell size vs animal size</th>
+                    <td style="vertical-align: middle;">r = -0.6655169786, p = 0.0009926398754</td>
+                    
+                      <td> r = -0.4446888702, (controlling for life span), p = 0.04946767409</td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Animal size vs life span</th>
+                    <td style="vertical-align: middle;">r = 0.7392911169, p = 0.0001285912536</td>
+                    
+                      <td> r = 0.4317138236, (controlling for cell size), p = 0.05733813005</td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Cell size vs life span</th>
+                    <td style="vertical-align: middle;">r = -0.908013123, p = 1.30428262e-8</td>
+                    
+                      <td> r = -0.8276946362, (controlling for animal size), p = 0.000006679034072</td>
+                    
+                  </tr>
+                
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Cell Size (acinar) vs Animal Size</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/cell_size_acinar_vs_animal_size.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Animal Size vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/animal_size_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Cell Size (acinar) vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/cell_size_acinar_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Cell Size (acinar) vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/cell_size_acinar_vs_life_span4.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Animal Size vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/animal_size_vs_life_span4.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Partial Correlation Plot</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/partial_correlation_plot_acinar.png" style="width:100%;">
+                </div>
+              
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Cell size vs life span vs animal size (hepatocyte)</h3>
+            <div></div>
+            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Cell size vs animal size</th>
+                    <td style="vertical-align: middle;">r = -0.5027232282, p = 0.033471941</td>
+                    
+                      <td> r = -0.1878592064, (controlling for life span), p = 0.4702744342</td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Animal size vs life span</th>
+                    <td style="vertical-align: middle;">r = 0.6390109623, p = 0.004305504151</td>
+                    
+                      <td> r = 0.4775641833, (controlling for cell size), p = 0.05254120552</td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Cell size vs life span</th>
+                    <td style="vertical-align: middle;">r = -0.6403815624, p = 0.004197320793</td>
+                    
+                      <td> r = -0.4799534861, (controlling for animal size), p = 0.0512042643</td>
+                    
+                  </tr>
+                
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Cell Size (hepatocyte) vs Animal Size</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/cell_size_hepatocyte_vs_animal_size.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Animal Size vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/animal_size_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Cell Size (hepatocyte) vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/cell_size_hepatocyte_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Cell Size (hepatocyte) vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/cell_size_hepatocyte_vs_life_span4.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Animal Size vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/animal_size_vs_life_span4.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Partial Correlation Plot</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/partial_correlation_plot_hepatocyte.png" style="width:100%;">
+                </div>
+              
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Growth rate to weaning in doubles per day (acinar)</h3>
+            <div></div>
+            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Growth rate vs animal size</th>
+                    <td style="vertical-align: middle;">r = -0.7936083936, p = 0.002061432385</td>
+                    
+                      <td>
+                      r = -0.09623469631, (controlling for life span), p = 0.7783495389<br>
+                      
+                      r = 0.007833337101, (controlling for cell size), p = 0.981763656<br>
+                      
+                      r = 0.1106439584, (controlling for life span and cell size), p = 0.7609076372<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Growth rate vs life span</th>
+                    <td style="vertical-align: middle;">r = -0.8894371524, p = 0.0001077807746</td>
+                    
+                      <td>
+                      r = -0.6640110357, (controlling for animal size), p = 0.0258699687<br>
+                      
+                      r = -0.2502167805, (controlling for cell size), p = 0.4580410724<br>
+                      
+                      r = -0.272079485, (controlling for animal size and cell size), p = 0.4469627581<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Growth rate vs cell size</th>
+                    <td style="vertical-align: middle;">r = 0.9224731182, p = 0.00001934431192</td>
+                    
+                      <td>
+                      r = 0.5755055331, (controlling for life span), p = 0.0639473782<br>
+                      
+                      r = 0.7729210439, (controlling for animal size), p = 0.005280784289<br>
+                      
+                      r = 0.5772511645, (controlling for life span and animal size), p = 0.08058048904<br>
+                      </td>
+                    
+                  </tr>
+                
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Growth Rate vs Animal Size</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/growth_rate_vs_animal_size.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Growth Rate vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/growth_rate_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Growth Rate vs Cell Size (acinar)</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/growth_rate_vs_cell_size_acinar.png" style="width:100%;">
+                </div>
+              
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Growth rate to weaning in doubles per day (hepatocyte)</h3>
+            <div></div>
+            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Growth rate vs animal size</th>
+                    <td style="vertical-align: middle;">r = -0.8315496626, p = 0.001507873107</td>
+                    
+                      <td>
+                      r = -0.209343402, (controlling for life span), p = 0.5616081115<br>
+                      
+                      r = -0.7342145338, (controlling for cell size), p = 0.01561103367<br>
+                      
+                      r = -0.2179235301, (controlling for life span and cell size), p = 0.5732460609<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Growth rate vs life span</th>
+                    <td style="vertical-align: middle;">r = -0.9129051876, p = 0.00008756331939</td>
+                    
+                      <td>
+                      r = -0.6954593196, (controlling for animal size), p = 0.02554871733<br>
+                      
+                      r = -0.908024046, (controlling for cell size), p = 0.0002798447107<br>
+                      
+                      r = -0.7983390754, (controlling for animal size and cell size), p = 0.009893469152<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Growth rate vs cell size</th>
+                    <td style="vertical-align: middle;">r = 0.5774983501, p = 0.06281913859</td>
+                    
+                      <td>
+                      r = -0.5458454599, (controlling for life span), p = 0.1026361365<br>
+                      
+                      r = 0.06535932252, (controlling for animal size), p = 0.8576356783<br>
+                      
+                      r = -0.5483055329, (controlling for life span and animal size), p = 0.1263840382<br>
+                      </td>
+                    
+                  </tr>
+                
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Growth Rate vs Animal Size</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/growth_rate_vs_animal_size.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Growth Rate vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/growth_rate_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Growth Rate vs Cell Size (hepatocyte)</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/growth_rate_vs_cell_size_hepatocyte.png" style="width:100%;">
+                </div>
+              
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Metabolic Rate (acinar)</h3>
+            <div></div>
+            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Metabolic Rate Vs Animal Size</th>
+                    <td style="vertical-align: middle;">r = 0.9387169905, p = 0.00001870227708</td>
+                    
+                      <td>
+                      r = 0.8300279916, (controlling for life span), p = 0.002958294226<br>
+                      
+                      r = 0.8530065183, (controlling for cell size), p = 0.001703854401<br>
+                      
+                      r = 0.8279409377, (controlling for life span and cell size), p = 0.005853736835<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Metabolic Rate Vs Life Span</th>
+                    <td style="vertical-align: middle;">r = 0.7911448262, p = 0.003728478598</td>
+                    
+                      <td>
+                      r = -0.14355466, (controlling for animal size), p = 0.6923659817<br>
+                      
+                      r = 0.3761281765, (controlling for cell size), p = 0.2840726538<br>
+                      
+                      r = -0.09310429452, (controlling for animal size and cell size), p = 0.8116942678<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Metabolic Rate Vs Cell Size</th>
+                    <td style="vertical-align: middle;">r = -0.7543755579, p = 0.007302796556</td>
+                    
+                      <td>
+                      r = 0.1099825606, (controlling for animal size), p = 0.7623022663<br>
+                      
+                      r = -0.1051392077, (controlling for life span), p = 0.7725335549<br>
+                      
+                      r = 0.007271030804, (controlling for animal size and life span), p = 0.9851882302<br>
+                      </td>
+                    
+                  </tr>
+                
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Metabolic Rate vs Animal Size</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/metabolic_rate_vs_animal_size.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Metabolic Rate vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/metabolic_rate_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Metabolic Rate vs Cell Size (acinar)</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/metabolic_rate_vs_cell_size_acinar.png" style="width:100%;">
+                </div>
+              
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Metabolic Rate (hepatocyte)</h3>
+            <div></div>
+            
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Metrics</th>
+                    <th>Correlation</th>
+                    <th>Partial Correlations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Metabolic Rate Vs Animal Size</th>
+                    <td style="vertical-align: middle;">r = 0.9430916869, p = 0.0001368911615</td>
+                    
+                      <td>
+                      r = 0.8313723223, (controlling for life span), p = 0.01052251271<br>
+                      
+                      r = 0.9220468565, (controlling for cell size), p = 0.001116086053<br>
+                      
+                      r = 0.8377313801, (controlling for life span and cell size), p = 0.01862960563<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Metabolic Rate Vs Life Span</th>
+                    <td style="vertical-align: middle;">r = 0.8040316226, p = 0.009003470069</td>
+                    
+                      <td>
+                      r = -0.1125175744, (controlling for animal size), p = 0.7908034046<br>
+                      
+                      r = 0.7055502817, (controlling for cell size), p = 0.05055808634<br>
+                      
+                      r = -0.02174272702, (controlling for animal size and cell size), p = 0.9630971245<br>
+                      </td>
+                    
+                  </tr>
+                
+                  <tr>
+                    <th scope="row" style="vertical-align: middle;">Metabolic Rate Vs Cell Size</th>
+                    <td style="vertical-align: middle;">r = -0.5469647595, p = 0.1275041958</td>
+                    
+                      <td>
+                      r = 0.2244979913, (controlling for animal size), p = 0.5929956145<br>
+                      
+                      r = 0.06679661541, (controlling for life span), p = 0.8751283879<br>
+                      
+                      r = 0.1966665494, (controlling for animal size and life span), p = 0.6725475585<br>
+                      </td>
+                    
+                  </tr>
+                
+                </tbody>
+              </table>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Metabolic Rate vs Animal Size</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/metabolic_rate_vs_animal_size.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Metabolic Rate vs Life Span</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/metabolic_rate_vs_life_span.png" style="width:100%;">
+                </div>
+              
+                <div class="card text-xs-center">
+                <h6 class="card-header">Metabolic Rate vs Cell Size (hepatocyte)</h6>
+                  <div class="card-block" style="padding:0px;"></div>
+                  <img class="card-img" src="img/metabolic_rate_vs_cell_size_hepatocyte.png" style="width:100%;">
+                </div>
+              
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+        <div class="row">
+          <div class="col-md-12">
+            <h3>Acinar Cell Size vs Hepatocyte Cell Size</h3>
+            <div></div>
+            
+          </div>
+        </div>
+        <div class="card-deck-wrapper">
+          <div class="card-deck card-block text-xs-center">
+
+            
+              <div class="card text-xs-center">
+              <h6 class="card-header">Acinar Cell Size vs Hepatocyte Cell Size</h6>
+                <div class="card-block" style="padding:0px;"></div>
+                <img class="card-img" src="img/acinar_vs_hepa.png" style="width:100%;">
+              </div>
+            
+          </div>
+        </div>
+
+        <hr style="margin:50px;">
+        
+
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./index_files/jquery.min.js.download" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./index_files/tether.min.js.download" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="./index_files/bootstrap.min.js.download"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./index_files/ie10-viewport-bug-workaround.js.download"></script>
+  
+
+</body></html>
+

@@ -1,0 +1,510 @@
+{
+	"sections": [
+		{
+			"title": "Cell size vs life span vs animal size (acinar)",
+			"table": [
+				{
+					"row_name": "Cell size vs animal size",
+					"correlation": {
+						"r": -0.6655169786,
+						"p": 0.0009926398754
+					},
+					"partial_correlation": {
+						"title": "controlling for life span",
+						"r": -0.4446888702,
+						"p": 0.04946767409
+					}
+				},
+				{
+					"row_name": "Animal size vs life span",
+					"correlation": {
+						"r": 0.7392911169,
+						"p": 0.0001285912536
+					},
+					"partial_correlation": {
+						"title": "controlling for cell size",
+						"r": 0.4317138236,
+						"p": 0.05733813005
+					}
+				},
+				{
+					"row_name": "Cell size vs life span",
+					"correlation": {
+						"r": -0.908013123,
+						"p": 1.30428262e-08
+					},
+					"partial_correlation": {
+						"title": "controlling for animal size",
+						"r": -0.8276946362,
+						"p": 6.679034072e-06
+					}
+				}
+			],
+			"images": [
+				{
+					"title": "Cell Size (acinar) vs Animal Size",
+					"filename": "cell_size_acinar_vs_animal_size.png"
+				},
+				{
+					"title": "Animal Size vs Life Span",
+					"filename": "animal_size_vs_life_span.png"
+				},
+				{
+					"title": "Cell Size (acinar) vs Life Span",
+					"filename": "cell_size_acinar_vs_life_span.png"
+				},
+				{
+					"title": "Cell Size (acinar) vs Life Span",
+					"filename": "cell_size_acinar_vs_life_span4.png"
+				},
+				{
+					"title": "Animal Size vs Life Span",
+					"filename": "animal_size_vs_life_span4.png"
+				},
+				{
+					"title": "Partial Correlation Plot",
+					"filename": "partial_correlation_plot_acinar.png"
+				}
+			]
+		},
+		{
+			"title": "Cell size vs life span vs animal size (hepatocyte)",
+			"table": [
+				{
+					"row_name": "Cell size vs animal size",
+					"correlation": {
+						"r": -0.5027232282,
+						"p": 0.033471941
+					},
+					"partial_correlation": {
+						"title": "controlling for life span",
+						"r": -0.1878592064,
+						"p": 0.4702744342
+					}
+				},
+				{
+					"row_name": "Animal size vs life span",
+					"correlation": {
+						"r": 0.6390109623,
+						"p": 0.004305504151
+					},
+					"partial_correlation": {
+						"title": "controlling for cell size",
+						"r": 0.4775641833,
+						"p": 0.05254120552
+					}
+				},
+				{
+					"row_name": "Cell size vs life span",
+					"correlation": {
+						"r": -0.6403815624,
+						"p": 0.004197320793
+					},
+					"partial_correlation": {
+						"title": "controlling for animal size",
+						"r": -0.4799534861,
+						"p": 0.0512042643
+					}
+				}
+			],
+			"images": [
+				{
+					"title": "Cell Size (hepatocyte) vs Animal Size",
+					"filename": "cell_size_hepatocyte_vs_animal_size.png"
+				},
+				{
+					"title": "Animal Size vs Life Span",
+					"filename": "animal_size_vs_life_span.png"
+				},
+				{
+					"title": "Cell Size (hepatocyte) vs Life Span",
+					"filename": "cell_size_hepatocyte_vs_life_span.png"
+				},
+				{
+					"title": "Cell Size (hepatocyte) vs Life Span",
+					"filename": "cell_size_hepatocyte_vs_life_span4.png"
+				},
+				{
+					"title": "Animal Size vs Life Span",
+					"filename": "animal_size_vs_life_span4.png"
+				},
+				{
+					"title": "Partial Correlation Plot",
+					"filename": "partial_correlation_plot_hepatocyte.png"
+				}
+			]
+		},
+		{
+			"title": "Growth rate to weaning in doubles per day (acinar)",
+			"table": [
+				{
+					"row_name": "Growth rate vs animal size",
+					"correlation": {
+						"r": -0.7936083936,
+						"p": 0.002061432385
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for life span",
+							"r": -0.09623469631,
+							"p": 0.7783495389
+						},
+						{
+							"title": "controlling for cell size",
+							"r": 0.007833337101,
+							"p": 0.981763656
+						},
+						{
+							"title": "controlling for life span and cell size",
+							"r": 0.1106439584,
+							"p": 0.7609076372
+						}
+					]
+				},
+				{
+					"row_name": "Growth rate vs life span",
+					"correlation": {
+						"r": -0.8894371524,
+						"p": 0.0001077807746
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for animal size",
+							"r": -0.6640110357,
+							"p": 0.0258699687
+						},
+						{
+							"title": "controlling for cell size",
+							"r": -0.2502167805,
+							"p": 0.4580410724
+						},
+						{
+							"title": "controlling for animal size and cell size",
+							"r": -0.272079485,
+							"p": 0.4469627581
+						}
+					]
+				},
+				{
+					"row_name": "Growth rate vs cell size",
+					"correlation": {
+						"r": 0.9224731182,
+						"p": 1.934431192e-05
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for life span",
+							"r": 0.5755055331,
+							"p": 0.0639473782
+						},
+						{
+							"title": "controlling for animal size",
+							"r": 0.7729210439,
+							"p": 0.005280784289
+						},
+						{
+							"title": "controlling for life span and animal size",
+							"r": 0.5772511645,
+							"p": 0.08058048904
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"title": "Growth Rate vs Animal Size",
+					"filename": "growth_rate_vs_animal_size.png"
+				},
+				{
+					"title": "Growth Rate vs Life Span",
+					"filename": "growth_rate_vs_life_span.png"
+				},
+				{
+					"title": "Growth Rate vs Cell Size (acinar)",
+					"filename": "growth_rate_vs_cell_size_acinar.png"
+				}
+			]
+		},
+		{
+			"title": "Growth rate to weaning in doubles per day (hepatocyte)",
+			"table": [
+				{
+					"row_name": "Growth rate vs animal size",
+					"correlation": {
+						"r": -0.8315496626,
+						"p": 0.001507873107
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for life span",
+							"r": -0.209343402,
+							"p": 0.5616081115
+						},
+						{
+							"title": "controlling for cell size",
+							"r": -0.7342145338,
+							"p": 0.01561103367
+						},
+						{
+							"title": "controlling for life span and cell size",
+							"r": -0.2179235301,
+							"p": 0.5732460609
+						}
+					]
+				},
+				{
+					"row_name": "Growth rate vs life span",
+					"correlation": {
+						"r": -0.9129051876,
+						"p": 8.756331939e-05
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for animal size",
+							"r": -0.6954593196,
+							"p": 0.02554871733
+						},
+						{
+							"title": "controlling for cell size",
+							"r": -0.908024046,
+							"p": 0.0002798447107
+						},
+						{
+							"title": "controlling for animal size and cell size",
+							"r": -0.7983390754,
+							"p": 0.009893469152
+						}
+					]
+				},
+				{
+					"row_name": "Growth rate vs cell size",
+					"correlation": {
+						"r": 0.5774983501,
+						"p": 0.06281913859
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for life span",
+							"r": -0.5458454599,
+							"p": 0.1026361365
+						},
+						{
+							"title": "controlling for animal size",
+							"r": 0.06535932252,
+							"p": 0.8576356783
+						},
+						{
+							"title": "controlling for life span and animal size",
+							"r": -0.5483055329,
+							"p": 0.1263840382
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"title": "Growth Rate vs Animal Size",
+					"filename": "growth_rate_vs_animal_size.png"
+				},
+				{
+					"title": "Growth Rate vs Life Span",
+					"filename": "growth_rate_vs_life_span.png"
+				},
+				{
+					"title": "Growth Rate vs Cell Size (hepatocyte)",
+					"filename": "growth_rate_vs_cell_size_hepatocyte.png"
+				}
+			]
+		},
+		{
+			"title": "Metabolic Rate (acinar)",
+			"table": [
+				{
+					"row_name": "Metabolic Rate Vs Animal Size",
+					"correlation": {
+						"r": 0.9387169905,
+						"p": 1.870227708e-05
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for life span",
+							"r": 0.8300279916,
+							"p": 0.002958294226
+						},
+						{
+							"title": "controlling for cell size",
+							"r": 0.8530065183,
+							"p": 0.001703854401
+						},
+						{
+							"title": "controlling for life span and cell size",
+							"r": 0.8279409377,
+							"p": 0.005853736835
+						}
+					]
+				},
+				{
+					"row_name": "Metabolic Rate Vs Life Span",
+					"correlation": {
+						"r": 0.7911448262,
+						"p": 0.003728478598
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for animal size",
+							"r": -0.14355466,
+							"p": 0.6923659817
+						},
+						{
+							"title": "controlling for cell size",
+							"r": 0.3761281765,
+							"p": 0.2840726538
+						},
+						{
+							"title": "controlling for animal size and cell size",
+							"r": -0.09310429452,
+							"p": 0.8116942678
+						}
+					]
+				},
+				{
+					"row_name": "Metabolic Rate Vs Cell Size",
+					"correlation": {
+						"r": -0.7543755579,
+						"p": 0.007302796556
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for animal size",
+							"r": 0.1099825606,
+							"p": 0.7623022663
+						},
+						{
+							"title": "controlling for life span",
+							"r": -0.1051392077,
+							"p": 0.7725335549
+						},
+						{
+							"title": "controlling for animal size and life span",
+							"r": 0.007271030804,
+							"p": 0.9851882302
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"title": "Metabolic Rate vs Animal Size",
+					"filename": "metabolic_rate_vs_animal_size.png"
+				},
+				{
+					"title": "Metabolic Rate vs Life Span",
+					"filename": "metabolic_rate_vs_life_span.png"
+				},
+				{
+					"title": "Metabolic Rate vs Cell Size (acinar)",
+					"filename": "metabolic_rate_vs_cell_size_acinar.png"
+				}
+			]
+		},
+		{
+			"title": "Metabolic Rate (hepatocyte)",
+			"table": [
+				{
+					"row_name": "Metabolic Rate Vs Animal Size",
+					"correlation": {
+						"r": 0.9430916869,
+						"p": 0.0001368911615
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for life span",
+							"r": 0.8313723223,
+							"p": 0.01052251271
+						},
+						{
+							"title": "controlling for cell size",
+							"r": 0.9220468565,
+							"p": 0.001116086053
+						},
+						{
+							"title": "controlling for life span and cell size",
+							"r": 0.8377313801,
+							"p": 0.01862960563
+						}
+					]
+				},
+				{
+					"row_name": "Metabolic Rate Vs Life Span",
+					"correlation": {
+						"r": 0.8040316226,
+						"p": 0.009003470069
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for animal size",
+							"r": -0.1125175744,
+							"p": 0.7908034046
+						},
+						{
+							"title": "controlling for cell size",
+							"r": 0.7055502817,
+							"p": 0.05055808634
+						},
+						{
+							"title": "controlling for animal size and cell size",
+							"r": -0.02174272702,
+							"p": 0.9630971245
+						}
+					]
+				},
+				{
+					"row_name": "Metabolic Rate Vs Cell Size",
+					"correlation": {
+						"r": -0.5469647595,
+						"p": 0.1275041958
+					},
+					"partial_correlations": [
+						{
+							"title": "controlling for animal size",
+							"r": 0.2244979913,
+							"p": 0.5929956145
+						},
+						{
+							"title": "controlling for life span",
+							"r": 0.06679661541,
+							"p": 0.8751283879
+						},
+						{
+							"title": "controlling for animal size and life span",
+							"r": 0.1966665494,
+							"p": 0.6725475585
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"title": "Metabolic Rate vs Animal Size",
+					"filename": "metabolic_rate_vs_animal_size.png"
+				},
+				{
+					"title": "Metabolic Rate vs Life Span",
+					"filename": "metabolic_rate_vs_life_span.png"
+				},
+				{
+					"title": "Metabolic Rate vs Cell Size (hepatocyte)",
+					"filename": "metabolic_rate_vs_cell_size_hepatocyte.png"
+				}
+			]
+		},
+		{
+			"title": "Acinar Cell Size vs Hepatocyte Cell Size",
+			"table": null,
+			"images": {
+				"title": "Acinar Cell Size vs Hepatocyte Cell Size",
+				"filename": "acinar_vs_hepa.png"
+			}
+		}
+	]
+}
