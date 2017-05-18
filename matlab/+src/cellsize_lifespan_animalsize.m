@@ -85,7 +85,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   saveas(gcf,['../public/img/cell_size_' config.cellsize_type '_vs_animal_size.png']);
   im  = {};
   im.title = ['Cell Size (' config.cellsize_type ') vs Animal Size'];
-  im.filename = ['cell_size_' config.cellsize_type '_vs_animal_size.png'];
+  im.filename = ['img/cell_size_' config.cellsize_type '_vs_animal_size.png'];
   images = [images im];
   
 
@@ -103,7 +103,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   saveas(gcf,'../public/img/animal_size_vs_life_span.png');
   im  = {};
   im.title = 'Animal Size vs Life Span';
-  im.filename = 'animal_size_vs_life_span.png';
+  im.filename = 'img/animal_size_vs_life_span.png';
   images = [images im];
   
 
@@ -121,7 +121,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   saveas(gcf,['../public/img/cell_size_' config.cellsize_type '_vs_life_span.png']);
   im  = {};
   im.title = ['Cell Size (' config.cellsize_type ') vs Life Span'];
-  im.filename = ['cell_size_' config.cellsize_type '_vs_life_span.png'];
+  im.filename = ['img/cell_size_' config.cellsize_type '_vs_life_span.png'];
   images = [images im];
   
 
@@ -142,7 +142,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   saveas(gcf,['../public/img/cell_size_' config.cellsize_type '_vs_life_span4.png']);
   im  = {};
   im.title = ['Cell Size (' config.cellsize_type ') vs Life Span'];
-  im.filename = ['cell_size_' config.cellsize_type '_vs_life_span4.png'];
+  im.filename = ['img/cell_size_' config.cellsize_type '_vs_life_span4.png'];
   images = [images im];
 
 
@@ -162,7 +162,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   saveas(gcf,'../public/img/animal_size_vs_life_span4.png');
   im  = {};
   im.title = 'Animal Size vs Life Span';
-  im.filename = 'animal_size_vs_life_span4.png';
+  im.filename = 'img/animal_size_vs_life_span4.png';
   images = [images im];
 
 
@@ -177,7 +177,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   % saveas(gcf,['../public/img/cell_size_' config.cellsize_type '_vs_life_span4H.png']);
   % im  = {};
   % im.title = ['Cell Size (' config.cellsize_type ') vs Life Span'];
-  % im.filename = ['cell_size_' config.cellsize_type '_vs_life_span4H.png'];
+  % im.filename = ['img/cell_size_' config.cellsize_type '_vs_life_span4H.png'];
   % images = [images im];
 
   % %% Life span versus animal size (4 animals)
@@ -191,7 +191,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   % saveas(gcf,'../public/img/animal_size_vs_life_span4H.png');
   % im  = {};
   % im.title = 'Animal Size vs Life Span';
-  % im.filename = 'animal_size_vs_life_span4H.png';
+  % im.filename = 'img/animal_size_vs_life_span4H.png';
   % images = [images im];
 
 
@@ -236,7 +236,7 @@ function data = cellsize_lifespan_animalsize(AnimalsTable, data, config)
   saveas(gcf,['../public/img/partial_correlation_plot_' config.cellsize_type '.png']);
   im  = {};
   im.title = 'Partial Correlation Plot';
-  im.filename = ['partial_correlation_plot_' config.cellsize_type '.png'];
+  im.filename = ['img/partial_correlation_plot_' config.cellsize_type '.png'];
   images = [images im];
 
   section.images = images;

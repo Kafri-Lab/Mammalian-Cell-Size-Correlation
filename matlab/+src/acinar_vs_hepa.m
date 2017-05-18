@@ -16,6 +16,6 @@ function data = acinar_vs_hepa(AnimalsTable, data, config)
   section.table = [];
   section.images  = {};
   section.images.title = 'Acinar Cell Size vs Hepatocyte Cell Size';
-  section.images.filename = 'acinar_vs_hepa.png'; 
+  section.images.filename = 'img/acinar_vs_hepa.png'; 
   data.sections = [data.sections section];
 end

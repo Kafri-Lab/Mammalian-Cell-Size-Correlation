@@ -18,7 +18,7 @@ AnimalsTable = cell2table(spreadsheet_subset);
 name_map = containers.Map;
 name_map('Timestamp') = 'Timestamp';
 name_map('Email Address') = 'Email';
-name_map('Animal name  (scientific species)') = 'Species';
+name_map('Animal name  (scientific species or taxon)') = 'Species';
 name_map('Animal name  (colloquial)') = 'Colloquial';
 name_map('Specimen age at death (days)') = 'DeathAge';
 name_map('Acinar cell volume (um^3)') = 'Acinar';
@@ -30,9 +30,10 @@ name_map('Birth weight (g)') = 'BirthWeight';
 name_map('Weaning weight (g)') = 'WeaningWeight';
 name_map('Sexual maturity weight (g)') = 'SexualMaturityWeight';
 name_map('Adult weight (g)') = 'AdultWeight';
-name_map('Basal metabolic rate (w)') = 'MetabolicRate';
+name_map('Basal metabolic rate per body mass (W/g)') = 'MetabolicRate';
 name_map('Notes') = 'Notes';
 name_map('Animal picture (URL)') = 'PictureURL';
+name_map('Feeding state') = 'Feedingstate';
 spreadsheet_column_names = spreadsheet(1,:); % names from google spreadsheet
 for i=1:length(spreadsheet_column_names)
   table_column_names{i} = name_map(spreadsheet_column_names{i});
@@ -58,6 +59,9 @@ config.cellsize_type = 'hepatocyte'; data = src.growth_rate_to_weaning(AnimalsTa
 config.cellsize_type = 'acinar'; data = src.metabolic_rate(AnimalsTable, data, config);
 config.cellsize_type = 'hepatocyte'; data = src.metabolic_rate(AnimalsTable, data, config);
 data = src.acinar_vs_hepa(AnimalsTable, data, config);
+
+% Overview of animals, build list of animal names and images to display on HTML page
+data = src.zoo_animals_overview_images(AnimalsTable, data, config);
 
 % Save analysis to JSON for HTML rendering
 savejson('',data,'FileName','data.json')

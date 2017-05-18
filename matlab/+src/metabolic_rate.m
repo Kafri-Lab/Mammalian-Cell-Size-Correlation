@@ -53,7 +53,6 @@ function data = metabolic_rate(AnimalsTable, data, config)
   row.partial_correlations = partial_correlations;
   table = [table row];
 
-  
   row = {};
   row.row_name = 'Metabolic Rate Vs Life Span';
   [r p] = corr(log(Metabolic), log(LifeSpan));
@@ -121,7 +120,7 @@ function data = metabolic_rate(AnimalsTable, data, config)
   saveas(gcf,['../public/img/metabolic_rate_vs_animal_size.png']);
   im  = {};
   im.title = 'Metabolic Rate vs Animal Size';
-  im.filename = ['metabolic_rate_vs_animal_size.png'];
+  im.filename = ['img/metabolic_rate_vs_animal_size.png'];
   images = [images im];
 
   figure('Position', [400, 400, 300, 250])
@@ -133,7 +132,7 @@ function data = metabolic_rate(AnimalsTable, data, config)
   ylabel('Life Span (yrs)') 
   saveas(gcf,'../public/img/metabolic_rate_vs_life_span.png')
   im.title = 'Metabolic Rate vs Life Span';
-  im.filename = 'metabolic_rate_vs_life_span.png';
+  im.filename = 'img/metabolic_rate_vs_life_span.png';
   images = [images im];
 
   figure('Position', [400, 400, 300, 250])
@@ -145,7 +144,7 @@ function data = metabolic_rate(AnimalsTable, data, config)
   ylabel('Metabolic rate per body mass (W/g)','FontSize',10)
   saveas(gcf,['../public/img/metabolic_rate_vs_cell_size_' config.cellsize_type '.png'])
   im.title = ['Metabolic Rate vs Cell Size (' config.cellsize_type ')'];
-  im.filename = ['metabolic_rate_vs_cell_size_' config.cellsize_type '.png'];
+  im.filename = ['img/metabolic_rate_vs_cell_size_' config.cellsize_type '.png'];
   images = [images im];
 
   section.images = images;

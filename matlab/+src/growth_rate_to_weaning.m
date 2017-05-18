@@ -130,7 +130,7 @@ function data = growth_rate_to_weaning(AnimalsTable, data, config)
   saveas(gcf,'../public/img/growth_rate_vs_animal_size.png')
   im  = {};
   im.title = 'Growth Rate vs Animal Size';
-  im.filename = 'growth_rate_vs_animal_size.png'; 
+  im.filename = 'img/growth_rate_vs_animal_size.png'; 
   images = [images im];
 
   figure('Position', [400, 400, 300, 250])
@@ -142,7 +142,7 @@ function data = growth_rate_to_weaning(AnimalsTable, data, config)
   ylabel('Life Span (yrs)')
   saveas(gcf,'../public/img/growth_rate_vs_life_span.png')
   im.title = 'Growth Rate vs Life Span';
-  im.filename = 'growth_rate_vs_life_span.png';
+  im.filename = 'img/growth_rate_vs_life_span.png';
   images = [images im];
 
   figure('Position', [400, 400, 300, 250])
@@ -154,7 +154,7 @@ function data = growth_rate_to_weaning(AnimalsTable, data, config)
   ylabel([pretty_cellsize_type ' Cell Volume (um^3)'])
   saveas(gcf,['../public/img/growth_rate_vs_cell_size_' config.cellsize_type '.png'])
   im.title = ['Growth Rate vs Cell Size (' config.cellsize_type ')'];
-  im.filename = ['growth_rate_vs_cell_size_' config.cellsize_type '.png'];
+  im.filename = ['img/growth_rate_vs_cell_size_' config.cellsize_type '.png'];
   images = [images im];
 
 
