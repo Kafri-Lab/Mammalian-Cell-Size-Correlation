@@ -1,4 +1,4 @@
-Results: https://kafri-lab.github.io/mammalian-cell-size-correlation/
+Results: https://kafri-lab.github.io/Mammalian-Cell-Size-Correlation/
 
 # Work in progress
 

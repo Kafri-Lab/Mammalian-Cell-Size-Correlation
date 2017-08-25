@@ -6,37 +6,37 @@
 				{
 					"row_name": "Cell size vs animal size",
 					"correlation": {
-						"r": -0.6449276977,
-						"p": 0.0006679169022
+						"r": -0.7002533021,
+						"p": 9.729634587e-05
 					},
 					"partial_correlation": {
 						"title": "controlling for life span",
-						"r": -0.4874960512,
-						"p": 0.018297467
+						"r": -0.5426265316,
+						"p": 0.006150738805
 					}
 				},
 				{
 					"row_name": "Animal size vs life span",
 					"correlation": {
-						"r": 0.6579770011,
-						"p": 0.0004745422466
+						"r": 0.684339349,
+						"p": 0.0001614612579
 					},
 					"partial_correlation": {
 						"title": "controlling for cell size",
-						"r": 0.2565036089,
-						"p": 0.2374272592
+						"r": 0.2024331554,
+						"p": 0.3428006082
 					}
 				},
 				{
 					"row_name": "Cell size vs life span",
 					"correlation": {
-						"r": -0.8707921672,
-						"p": 3.138596305e-08
+						"r": -0.878788851,
+						"p": 7.547746985e-09
 					},
 					"partial_correlation": {
 						"title": "controlling for animal size",
-						"r": -0.7757447386,
-						"p": 1.366062533e-05
+						"r": -0.7676132969,
+						"p": 1.197751058e-05
 					}
 				}
 			],
@@ -73,25 +73,25 @@
 				{
 					"row_name": "Cell size vs animal size",
 					"correlation": {
-						"r": -0.5354722752,
-						"p": 0.01813999432
+						"r": -0.5150977425,
+						"p": 0.02401304198
 					},
 					"partial_correlation": {
 						"title": "controlling for life span",
-						"r": -0.2045839628,
-						"p": 0.415455725
+						"r": -0.1664690938,
+						"p": 0.5091283061
 					}
 				},
 				{
 					"row_name": "Animal size vs life span",
 					"correlation": {
-						"r": 0.6617717242,
-						"p": 0.002027387583
+						"r": 0.6763928687,
+						"p": 0.001473722838
 					},
 					"partial_correlation": {
 						"title": "controlling for cell size",
-						"r": 0.481070473,
-						"p": 0.04326705948
+						"r": 0.5191833445,
+						"p": 0.02724661683
 					}
 				},
 				{
@@ -102,8 +102,8 @@
 					},
 					"partial_correlation": {
 						"title": "controlling for animal size",
-						"r": -0.5118698745,
-						"p": 0.02989047555
+						"r": -0.5228004846,
+						"p": 0.0260081398
 					}
 				}
 			],
@@ -140,72 +140,72 @@
 				{
 					"row_name": "Growth rate vs animal size",
 					"correlation": {
-						"r": -0.7584007045,
-						"p": 0.001048694092
+						"r": -0.7679227203,
+						"p": 0.0005130149458
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for life span",
-							"r": -0.3226970983,
-							"p": 0.2604665394
+							"r": -0.411083617,
+							"p": 0.1279517205
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.1368501658,
-							"p": 0.6408491084
+							"r": -0.4050829643,
+							"p": 0.1341698913
 						},
 						{
 							"title": "controlling for life span and cell size",
-							"r": -0.09057412096,
-							"p": 0.7685524024
+							"r": -0.3543570507,
+							"p": 0.2138320819
 						}
 					]
 				},
 				{
 					"row_name": "Growth rate vs life span",
 					"correlation": {
-						"r": -0.8870971182,
-						"p": 1.03835243e-05
+						"r": -0.8576811812,
+						"p": 2.158333402e-05
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for animal size",
-							"r": -0.7420967379,
-							"p": 0.002373108532
+							"r": -0.6815563708,
+							"p": 0.005139431385
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.4404637113,
-							"p": 0.1149652418
+							"r": -0.516488049,
+							"p": 0.0487015874
 						},
 						{
 							"title": "controlling for animal size and cell size",
-							"r": -0.430539073,
-							"p": 0.1419386471
+							"r": -0.4826677073,
+							"p": 0.08044460089
 						}
 					]
 				},
 				{
 					"row_name": "Growth rate vs cell size",
 					"correlation": {
-						"r": 0.9044863147,
-						"p": 3.655625269e-06
+						"r": 0.8143182096,
+						"p": 0.0001229621367
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for life span",
-							"r": 0.5584471665,
-							"p": 0.03792999781
+							"r": 0.2562818419,
+							"p": 0.3565304514
 						},
 						{
 							"title": "controlling for animal size",
-							"r": 0.7614692964,
-							"p": 0.001555200232
+							"r": 0.5600451944,
+							"p": 0.02991404218
 						},
 						{
 							"title": "controlling for life span and animal size",
-							"r": 0.4880340999,
-							"p": 0.09065395509
+							"r": 0.1298521517,
+							"p": 0.6581671443
 						}
 					]
 				}
@@ -231,72 +231,72 @@
 				{
 					"row_name": "Growth rate vs animal size",
 					"correlation": {
-						"r": -0.848553221,
-						"p": 0.0004837925262
+						"r": -0.8452519004,
+						"p": 0.0002742024726
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for life span",
-							"r": -0.2211801058,
-							"p": 0.5133772889
+							"r": -0.397745952,
+							"p": 0.2003909082
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.7368057551,
-							"p": 0.009692895097
+							"r": -0.720293294,
+							"p": 0.008237977873
 						},
 						{
 							"title": "controlling for life span and cell size",
-							"r": -0.228756768,
-							"p": 0.5249686753
+							"r": -0.39215786,
+							"p": 0.232916163
 						}
 					]
 				},
 				{
 					"row_name": "Growth rate vs life span",
 					"correlation": {
-						"r": -0.9201543869,
-						"p": 2.232631277e-05
+						"r": -0.8881745494,
+						"p": 5.006245753e-05
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for animal size",
-							"r": -0.6922072248,
-							"p": 0.01825496765
+							"r": -0.6144447809,
+							"p": 0.03351582344
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.9073958365,
-							"p": 0.000114458942
+							"r": -0.7716778872,
+							"p": 0.003282169238
 						},
 						{
 							"title": "controlling for animal size and cell size",
-							"r": -0.7961247552,
-							"p": 0.005861826311
+							"r": -0.5372260295,
+							"p": 0.0883423495
 						}
 					]
 				},
 				{
 					"row_name": "Growth rate vs cell size",
 					"correlation": {
-						"r": 0.6261387679,
-						"p": 0.02939176635
+						"r": 0.694717869,
+						"p": 0.008404299298
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for life span",
-							"r": -0.5473483982,
-							"p": 0.08137643457
+							"r": -0.09396094843,
+							"p": 0.7714683996
 						},
 						{
 							"title": "controlling for animal size",
-							"r": 0.08563172843,
-							"p": 0.8023276283
+							"r": 0.3580325645,
+							"p": 0.2531582753
 						},
 						{
 							"title": "controlling for life span and animal size",
-							"r": -0.5496369676,
-							"p": 0.09979155957
+							"r": -0.06026069149,
+							"p": 0.8602932612
 						}
 					]
 				}
@@ -322,72 +322,72 @@
 				{
 					"row_name": "Metabolic Rate Vs Animal Size",
 					"correlation": {
-						"r": -0.9197357938,
-						"p": 3.241363369e-06
+						"r": -0.9467988929,
+						"p": 2.917304234e-07
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for life span",
-							"r": -0.8130621083,
-							"p": 0.0007260827145
+							"r": -0.8724910034,
+							"p": 9.98664967e-05
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.7991031752,
-							"p": 0.001048420246
+							"r": -0.8381817888,
+							"p": 0.0003455882631
 						},
 						{
 							"title": "controlling for life span and cell size",
-							"r": -0.7937190015,
-							"p": 0.002056325528
+							"r": -0.8353735306,
+							"p": 0.0007173183685
 						}
 					]
 				},
 				{
 					"row_name": "Metabolic Rate Vs Life Span",
 					"correlation": {
-						"r": -0.8068080154,
-						"p": 0.000488094866
+						"r": -0.807739334,
+						"p": 0.0004751701012
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for animal size",
-							"r": -0.4818719962,
-							"p": 0.09542414652
+							"r": -0.4458614192,
+							"p": 0.1267527563
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.1529466059,
-							"p": 0.6178894541
+							"r": -0.1613601294,
+							"p": 0.5984414345
 						},
 						{
 							"title": "controlling for animal size and cell size",
-							"r": 0.01483020205,
-							"p": 0.9635144999
+							"r": -0.1031907431,
+							"p": 0.7496251197
 						}
 					]
 				},
 				{
 					"row_name": "Metabolic Rate Vs Cell Size",
 					"correlation": {
-						"r": 0.8747292231,
-						"p": 4.23699338e-05
+						"r": 0.8660168759,
+						"p": 6.218993618e-05
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for animal size",
-							"r": 0.6701669227,
-							"p": 0.01219497117
+							"r": 0.5310128773,
+							"p": 0.06186770498
 						},
 						{
 							"title": "controlling for life span",
-							"r": 0.5856080015,
-							"p": 0.03547832127
+							"r": 0.5471573102,
+							"p": 0.05295746711
 						},
 						{
 							"title": "controlling for animal size and life span",
-							"r": 0.531679915,
-							"p": 0.07522452303
+							"r": 0.336695603,
+							"p": 0.284552059
 						}
 					]
 				}
@@ -413,72 +413,72 @@
 				{
 					"row_name": "Metabolic Rate Vs Animal Size",
 					"correlation": {
-						"r": -0.9412190978,
-						"p": 4.863566128e-05
+						"r": -0.9658254725,
+						"p": 5.726187305e-06
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for life span",
-							"r": -0.7668432296,
-							"p": 0.01590480616
+							"r": -0.8582085214,
+							"p": 0.003068133259
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.963896186,
-							"p": 2.842033878e-05
+							"r": -0.9673720023,
+							"p": 2.000994161e-05
 						},
 						{
 							"title": "controlling for life span and cell size",
-							"r": -0.9451458953,
-							"p": 0.0003958464202
+							"r": -0.9125053654,
+							"p": 0.001566537331
 						}
 					]
 				},
 				{
 					"row_name": "Metabolic Rate Vs Life Span",
 					"correlation": {
-						"r": -0.8540654137,
-						"p": 0.001657509544
+						"r": -0.864110963,
+						"p": 0.001262058093
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for animal size",
-							"r": -0.1522203524,
-							"p": 0.695824779
+							"r": -0.08082927904,
+							"p": 0.8362298208
 						},
 						{
 							"title": "controlling for cell size",
-							"r": -0.8726644671,
-							"p": 0.002137144447
+							"r": -0.8555403038,
+							"p": 0.00326606641
 						},
 						{
 							"title": "controlling for animal size and cell size",
-							"r": -0.8007254795,
-							"p": 0.01694427647
+							"r": -0.548858879,
+							"p": 0.1588883887
 						}
 					]
 				},
 				{
 					"row_name": "Metabolic Rate Vs Cell Size",
 					"correlation": {
-						"r": 0.4680214667,
-						"p": 0.1725235872
+						"r": 0.5112055855,
+						"p": 0.1310033379
 					},
 					"partial_correlations": [
 						{
 							"title": "controlling for animal size",
-							"r": -0.7174438426,
-							"p": 0.02955756166
+							"r": -0.542405717,
+							"p": 0.1313570606
 						},
 						{
 							"title": "controlling for life span",
-							"r": -0.5583364182,
-							"p": 0.1181896689
+							"r": -0.467282518,
+							"p": 0.2047080348
 						},
 						{
 							"title": "controlling for animal size and life span",
-							"r": -0.9064955502,
-							"p": 0.001903145283
+							"r": -0.7096329617,
+							"p": 0.04864956641
 						}
 					]
 				}
@@ -536,22 +536,6 @@
 				},
 				{
 					"title": [
-						"Human"
-					],
-					"filename": [
-						"http:\/\/www.gll-getalife.com\/wp-content\/uploads\/2013\/03\/Hanes-Men-White-Innerwear-T-shirt_7d5cc16ca04970e77632790e1ef1cf63_images_1080_1440_mini.jpg"
-					]
-				},
-				{
-					"title": [
-						"Human"
-					],
-					"filename": [
-						"http:\/\/www.gll-getalife.com\/wp-content\/uploads\/2013\/03\/Hanes-Men-White-Innerwear-T-shirt_7d5cc16ca04970e77632790e1ef1cf63_images_1080_1440_mini.jpg"
-					]
-				},
-				{
-					"title": [
 						"Palestine blind mole rat"
 					],
 					"filename": [
@@ -584,10 +568,10 @@
 				},
 				{
 					"title": [
-						"Cat"
+						"Human"
 					],
 					"filename": [
-						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/1e\/Large_Siamese_cat_tosses_a_mouse.jpg\/1024px-Large_Siamese_cat_tosses_a_mouse.jpg"
+						"http:\/\/www.gll-getalife.com\/wp-content\/uploads\/2013\/03\/Hanes-Men-White-Innerwear-T-shirt_7d5cc16ca04970e77632790e1ef1cf63_images_1080_1440_mini.jpg"
 					]
 				},
 				{
@@ -608,6 +592,14 @@
 				},
 				{
 					"title": [
+						"Cat"
+					],
+					"filename": [
+						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/1\/1e\/Large_Siamese_cat_tosses_a_mouse.jpg\/1024px-Large_Siamese_cat_tosses_a_mouse.jpg"
+					]
+				},
+				{
+					"title": [
 						"Cotton tamarin"
 					],
 					"filename": [
@@ -620,6 +612,22 @@
 					],
 					"filename": [
 						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/0\/0d\/Kangaroo_and_joey03.jpg\/800px-Kangaroo_and_joey03.jpg"
+					]
+				},
+				{
+					"title": [
+						"Collared peccary"
+					],
+					"filename": [
+						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a0\/Collared_peccary02_-_melbourne_zoo.jpg\/1024px-Collared_peccary02_-_melbourne_zoo.jpg"
+					]
+				},
+				{
+					"title": [
+						"pig"
+					],
+					"filename": [
+						"https:\/\/previews.123rf.com\/images\/dennisvdwater\/dennisvdwater1405\/dennisvdwater140500043\/28117451-Wild-boar-Sus-Scrofa-isolated-on-a-white-background-Stock-Photo.jpg"
 					]
 				},
 				{
@@ -640,10 +648,10 @@
 				},
 				{
 					"title": [
-						"Collared peccary"
+						"naked mole rat"
 					],
 					"filename": [
-						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/a\/a0\/Collared_peccary02_-_melbourne_zoo.jpg\/1024px-Collared_peccary02_-_melbourne_zoo.jpg"
+						"http:\/\/www.nationalgeographic.com\/content\/dam\/animals\/pictures\/mammals\/n\/naked-mole-rat\/naked-mole-rat.adapt.590.1.jpg"
 					]
 				},
 				{
@@ -664,7 +672,7 @@
 				},
 				{
 					"title": [
-						"Psammomys"
+						"Sand rat"
 					],
 					"filename": [
 						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/d\/d4\/Psammomys_obesus%2C_Israel_01.jpg"
@@ -692,6 +700,14 @@
 					],
 					"filename": [
 						"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/thumb\/f\/ff\/Suncus_etruscus.jpg\/1024px-Suncus_etruscus.jpg"
+					]
+				},
+				{
+					"title": [
+						"Human"
+					],
+					"filename": [
+						"http:\/\/www.gll-getalife.com\/wp-content\/uploads\/2013\/03\/Hanes-Men-White-Innerwear-T-shirt_7d5cc16ca04970e77632790e1ef1cf63_images_1080_1440_mini.jpg"
 					]
 				},
 				{
@@ -728,18 +744,10 @@
 				},
 				{
 					"title": [
-						"pig"
+						"White rhinoceros"
 					],
 					"filename": [
-						"https:\/\/previews.123rf.com\/images\/dennisvdwater\/dennisvdwater1405\/dennisvdwater140500043\/28117451-Wild-boar-Sus-Scrofa-isolated-on-a-white-background-Stock-Photo.jpg"
-					]
-				},
-				{
-					"title": [
-						"naked mole rat"
-					],
-					"filename": [
-						"https:\/\/www.google.co.il\/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjVwN-NhvfTAhULCywKHYBBCB4QjRwIBw&url=http%3A%2F%2Fwww.nature.com%2Fnews%2Fpoo-turns-naked-mole-rats-into-better-babysitters-1.18606&psig=AFQjCNF6JrtFZ8GKrKClD7tTYn0Pycb1LQ&ust=1495114516874733"
+						"https:\/\/www.google.co.il\/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwieiPL8-6bVAhUIaRQKHZwHACMQjRwIBw&url=http%3A%2F%2Felelur.com%2Fmammals%2Fwhite-rhino.html&psig=AFQjCNFJlBwkGKj61CeaHrGg6euam9j1cg&ust=1501159162867872"
 					]
 				}
 			]
